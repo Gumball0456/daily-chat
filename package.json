@@ -1,14 +1,16 @@
 {
   "name": "daily-chat",
-  "version": "1.0.0",
-  "description": "A simple group chat where groups only last for 24hours",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "Gumball0456",
-  "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
